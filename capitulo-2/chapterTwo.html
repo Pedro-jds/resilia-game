@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="chapterOne.js"></script>
-    <link rel="stylesheet" href="chapterOne.css">
+    <script src="chapterTwo.js"></script>
+    <link rel="stylesheet" href="../capitulo-1/chapterOne.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -20,17 +20,20 @@
         </ul>
     </header>
     <main>
-        <h1>Fase 1 - Aonde estou?</h1>
+        <h1>Fase 2 - Fugindo do que?</h1>
         <div>
-            <p>Você acorda amarrado em uma sala de algo que lembra uma fabrica enorme, sem saber bem o que aconteceu olha para o os lados e vê duas pessoas distantes aparentemente dormido ou mortas com capuzes na cabeça, percebe que a corda está frouxa e tenta se soltar, após conseguir entra no dilema entre ir até as pessoas de um lado ou tentar fugir por uma porta que está semi aberta.<span class="alternativa"> Aperte em Decidir e Digite 1 - Para ir checar as pessoas ou Digite 2 - você irá tentar sair pela porta</span></p>
+            <p>chegando na porta percebe que ela é de metal e pesada, ao empurrar e abrir faz alguns ruídos, então começa a ouvir passos chegando perto desta sala, procurando alguma forma de se esconder ou escapar ele vê um armario com aspecto estranho todo retorcido e uma saída de pequena ao lado que dá acesso um novo local. <span class="alternativa">Digite 1 - para seguir pela pequena saída</span> ou <span class="alternativa"> Digite 2 - para se esconder no armário</span></p>
         </div>
         <div>
-            <button id="escolha1" onclick="resultado(resultado1)" type="button">Decidir</button>
+            <button id="escolha1" onclick="resultado(resultado1)">Decidir</button>
         </div>
         
         <div id=><p id="resultado1"></p></div>
         <div>
-            <button id="escolha2" type="button"><a href="../capitulo-2/chapterTwo.html">Continuar</a></button>
+            <button id="escolha2" onclick="resultado()">continuar</button>
+        </div>
+        <div>
+            <button id="gameOver">Game Over</button>
         </div>
     </main>
 </body>

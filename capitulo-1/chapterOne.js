@@ -27,7 +27,7 @@ function mostrarBotao (y){
 function resultado() {
     
     if(escolha()===1){
-    document.getElementById("resultado1").innerHTML = "chegando na porta percebe que ela é de metal e pesada, ao empurrar ela para abrir faz alguns ruídos, então começa a ouvir passos chegando perto desta sala, procurando alguma forma de se esconder ou fugir heroi vê que nessa nova sala tem um armario e um pequena saída de ar ";
+    document.getElementById("resultado1").innerHTML = texto2;
     }
     else {
     document.getElementById("resultado1").innerHTML = texto1 }
@@ -35,5 +35,8 @@ function resultado() {
     ocultarBotao("escolha1");
     mostrarBotao("escolha2")
   }
-    
- var texto1 = "Chegando nas pessoas nota que eles realmente estão mortas, fazendo um pequena revista nos corpos é encotrado um celular, mas está sem sinal e com os botoes do volume quebrados, mas tem uma mensagem de audio tentado a ouvir mas com receio do barulho ele toma sua decisão"
+  
+  
+ var texto1 = "Chegando nas pessoas nota que eles realmente estão mortas, fazendo um pequena revista nos corpos é encotrado um celular, mas está sem sinal e quase sem bateria você então segue a até sem entender bem o que está acontecendo"
+
+ var texto2 = "chegando na porta percebe que ela é de metal e pesada, ao empurrar ela para abrir faz alguns ruídos, então começa a ouvir passos chegando perto desta sala, procurando alguma forma de se esconder ou fugir heroi vê que nessa nova sala tem um armario e um pequena saída de ar "

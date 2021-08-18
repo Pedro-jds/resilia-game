@@ -45,11 +45,7 @@ p{
     font-size: 1.2em;
 }   
 
-span{
-    font-size: 20px;
-    color: blueviolet;
-    width: 70vh;
-}
+
 
 button {
     margin: 1em;
@@ -70,6 +66,10 @@ button:hover{
     display:none;
 }
 
+#gameOver {
+    display: none;
+}
+
 ul{
     list-style: none;
 }
@@ -87,5 +87,12 @@ p>a{
 }
 
 a{
-    text-decoration: solid;
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.alternativa{
+    font-weight: bold;
+    color: rgba(154,44,35,255);
+
 }
