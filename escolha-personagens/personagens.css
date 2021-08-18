@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagens/crokedman.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+    
+}
+
+h1 {
+ width: 100vmax;
+ text-align: center;
+ color: cornsilk;
+}
+
+.personagens {
+    width: 30vh;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    background-color: brown;
+    opacity: 0.8;
+    border-radius: 1em;
+}
+
+.personagens:hover{
+    background-color: darkred;
+}
+
+img{
+    background-color: black;
+    width: 10vw;
+    height: 10vh;
+}
+
+p {
+    color: cornsilk;
+    align-self: center;
+    padding-top: 2em;
+    opacity: 0.8;
+}
+
+h4 {
+    color: cornsilk;
+    padding-top: 1em;
+    opacity: 0.8;
+}
+
+button {
+    margin: 1em;
+    font-size: 1.4em;
+    background-color:cornsilk;
+    color: brown;
+    border-radius: 0.3em;
+    opacity: 0.8;
+}
+
+button:hover{
+    background-color: brown;
+    color: cornsilk;
+}

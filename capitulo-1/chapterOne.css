@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    opacity: 0.8;
+    padding: 0.2em;
+    align-items: center;
+}
+
+main{
+    justify-content: center;
+    background-image: url(../imagens/crokedman.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+h1{
+    margin-top: 3em;
+    text-align: center;
+    color: cornsilk;
+}
+
+div{
+    
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    color: cornsilk;
+}
+
+p{
+    width: 70vh;
+    font-size: 1.2em;
+}   
+
+span{
+    font-size: 20px;
+    color: blueviolet;
+    width: 70vh;
+}
+
+button {
+    margin: 1em;
+    font-size: 2em;
+    background-color: brown;
+    color: cornsilk;
+    border-radius: 0.3em;
+    opacity: 0.8;
+}
+
+button:hover{
+    background-color: cornsilk;
+    color: brown;
+}
+
+#escolha2 {
+    display:none;
+}
+
+ul{
+    list-style: none;
+}
+
+li>a{
+    font-size: 1.5em;
+    margin: 0.2em;
+    color: cornsilk;
+}
+
+p>a{
+    font-size: 1.6em;
+    margin: 0.2em;
+    color: cornsilk;
+}
+
+a{
+    text-decoration: solid;
+}
