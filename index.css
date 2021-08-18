@@ -5,9 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: white;
-    
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 div{
@@ -21,10 +19,11 @@ div{
 
 p{  
     width: 45vh;
-    color: azure;
+    color: cornsilk;
     font-size: 1.5em;
-    margin: 1em;
-    
+    margin: 1.5em;
+    opacity: 0.8;
+    text-align: center;
 }
 
 button{
@@ -32,20 +31,23 @@ button{
     border-radius: 10px;
     font-size: 1em;
     padding: 1em;
-    background-color: brown;
+    background-color: rgba(72,14,9,255);
     color: cornsilk;
     font-weight: 700;
+    opacity: 0.8;
 }
-
 
 
 button:hover{
     background-color: cornsilk;
-    color: brown;
+    color: rgba(72,14,9,255);
+    opacity: 0.9;
 }
 
 h1{
-   font-size: 3em;
+   font-size: 2.5em;
+   color: cornsilk;
+   opacity: 0.8;
 }
 
 

@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -29,13 +30,13 @@ h1 {
     text-align: center;
     margin: 1em;
     padding: 1em;
-    background-color: brown;
+    background-color: rgba(72,14,9,255);
     opacity: 0.8;
     border-radius: 1em;
 }
 
 .personagens:hover{
-    background-color: darkred;
+    background-color: rgba(145,44,30,255);
 }
 
 img{
@@ -61,12 +62,21 @@ button {
     margin: 1em;
     font-size: 1.4em;
     background-color:cornsilk;
-    color: brown;
+    color: rgba(72,14,9,255);
     border-radius: 0.3em;
     opacity: 0.8;
 }
 
 button:hover{
-    background-color: brown;
+    background-color: rgba(72,14,9,255);
+    color: cornsilk;
+}
+
+a{
+    text-decoration: none;
+    color:rgba(72,14,9,255)
+}
+
+a:hover{
     color: cornsilk;
 }
