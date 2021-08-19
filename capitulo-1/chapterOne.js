@@ -1,3 +1,12 @@
+// function escolherPersonagen(x){
+//     var personagem = x
+//     return personagem
+// }
+
+
+// var x = 
+
+
 
 function escolha(){
 
