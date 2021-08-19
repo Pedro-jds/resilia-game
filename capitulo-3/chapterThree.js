@@ -1,3 +1,4 @@
+//Função prompt para escolher a opção do usuario
 function escolha(){
 
     var num = parseInt(window.prompt("digite 1 ou 2 para decidir"),10) 
@@ -14,15 +15,16 @@ function escolha(){
     break
     }
 }
-
+//função para esconder um determinado botão
 function ocultarBotao(x){
     document.getElementById(x).style.display = "none";
 }
-
+//função para mostrar um determinado botão
 function mostrarBotao (y){
     document.getElementById(y).style.display = "flex";
 }
 
+//função que compara o valor dado pelo usuario e escreve na tela o texto correspondente
 function resultado() {
     
     if(escolha()===1){
@@ -42,6 +44,6 @@ function resultado() {
 
   var texto1 = "Você lê em voz alta com muito medo, a figura lhe olha e diz: sua vida acaba aqui"
 
-  var texto2 = "Você rasga o verso pois lembrou de uma antiga lenda sobre ele, que dizia que o homem torto matava quem o lia, a figura assustadora abre passagem e abre espaço para sua fuga"
+  var texto2 = "Você rasga o verso pois lembrou de uma antiga lenda sobre ele, que dizia que o homem torto matava quem o lia este verso, a figura assustadora se afasta e abre passagem para sua fuga"
 
   
