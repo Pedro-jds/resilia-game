@@ -1,13 +1,9 @@
-// function escolherPersonagen(x){
-//     var personagem = x
-//     return personagem
-// }
-
-
-// var x = 
 
 
 
+
+
+//Função prompt para escolher a opção do usuario
 function escolha(){
 
     var num = parseInt(window.prompt("digite 1 ou 2 para decidir"),10) 
@@ -36,10 +32,11 @@ function mostrarBotao (y){
 function resultado() {
     
     if(escolha()===1){
-    document.getElementById("resultado1").innerHTML = texto2;
+    document.getElementById("resultado1").innerHTML = texto2
     }
     else {
-    document.getElementById("resultado1").innerHTML = texto1 }
+    document.getElementById("resultado1").innerHTML = texto1
+    }
     
     ocultarBotao("escolha1");
     mostrarBotao("escolha2")

@@ -43,3 +43,5 @@ function resultado() {
   var texto1 = "Você lê em voz alta com muito medo, a figura lhe olha e diz: sua vida acaba aqui"
 
   var texto2 = "Você rasga o verso pois lembrou de uma antiga lenda sobre ele, que dizia que o homem torto matava quem o lia, a figura assustadora abre passagem e abre espaço para sua fuga"
+
+  
